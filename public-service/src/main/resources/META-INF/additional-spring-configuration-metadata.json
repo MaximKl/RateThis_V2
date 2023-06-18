@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "products.main.pageSize",
+  "type": "java.lang.Integer",
+  "description": "Sets the maximum number of products to display ona main page."
+}]}

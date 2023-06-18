@@ -1,0 +1,16 @@
+package com.ratethis.productservice.model.product.profile;
+
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
+public class ProfileFilmID implements Serializable {
+
+    private long profileId;
+    private long productId;
+}
